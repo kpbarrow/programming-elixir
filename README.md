@@ -1,7 +1,20 @@
-# Chapter4
+# Programming-Elixir
+A repository for stuff I wrote while working through Programming Elixir >= 1.6. I doubt there is anything of practical use, its a repo for me to keep stuff in...
 
-run `mix test` in the shell to exercise the tests
-**TODO: Add description**
+## Unit Testing
+Everything is run through UTs, because that's how I currently roll. You can run individually with
+
+`mix test`
+
+or have a file watcher run tests for you:
+
+`mix test.watch`
+
+to get the watcher working you will need:
+
+* install inotify tools[https://github.com/inotify-tools/inotify-tools/wiki] (Arch - `pacman -S inotify-tools`)
+* run `mix deps.get` to get the dependencies 
+
 
 ## Installation
 
