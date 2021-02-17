@@ -124,7 +124,6 @@ defmodule Chapter5Test do
     end
 
     test "4! is 24" do
-      assert 2=3
       assert Chapter5.FactorialBetter.of(4) == 24
     end
 

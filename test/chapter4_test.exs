@@ -102,6 +102,5 @@ defmodule Chapter4Test do
     test "Exercise Functions-6, map_to_console writes to console" do
       assert capture_io(fn -> Chapter4.Functions5.map_to_console([1,2,3,4]) end) == "1\n2\n3\n4\n"
     end
-
   end
 end
